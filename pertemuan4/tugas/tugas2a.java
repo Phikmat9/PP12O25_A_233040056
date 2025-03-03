@@ -1,6 +1,6 @@
 package tugas;
 
-public class latihan_2_a {
+public class tugas2a {
     public static void main(String[] args) {
         StrukturList List = new StrukturList();
         List.addHead(2.1);

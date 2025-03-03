@@ -8,7 +8,7 @@ public class Main {
         List.addMid(8,2);
         List.addHead(5);
 
-        System.out.println("Element; ");
+        System.out.print("Element; ");
         List.displayElement();
     }
     
