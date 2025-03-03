@@ -53,7 +53,6 @@ public class StrukturList {
         }
     }
         
-
     // Display
     public void displayElement() { 
         Node curNode = HEAD;
@@ -63,7 +62,6 @@ public class StrukturList {
         }
         System.out.println(); 
     }
-
-   
+  
 }
 

@@ -5,7 +5,6 @@ public class Node {
     private Node next;
 
     // inisialisasi atribut node 
-
     public Node(int data) {
         this.data = data;
         this.next = null;
