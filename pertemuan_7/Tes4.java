@@ -1,6 +1,6 @@
-package pertemuan7;
+package pertemuan_7;
 
-public class Tes1 {
+public class Tes4 {
     public static void main(String[] args) {
         ListMk list = new ListMk();
 
@@ -9,9 +9,9 @@ public class Tes1 {
         Matakuliah mk3 = new Matakuliah("IF005", "Struktur Distrik", 3);
         Matakuliah mk4 = new Matakuliah("IF004", "Konstruksi PL Beorientasi objek", 3);
        
-        list.addHead(mk1);
-        list.addHead(mk2);
-        list.addHead(mk3);
+        list.addTail(mk1);
+        list.addMid(mk2, 2);
+        list.addMid(mk3, 3);
         list.addHead(mk4);
         
         list.displayElement();

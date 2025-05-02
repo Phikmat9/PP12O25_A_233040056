@@ -1,27 +1,26 @@
 package pertemuan7;
 
 public class Node {
-    private Matakuliah data;
+    private int data;
     private Node next;
 
-    // inisialisasi atribut node 
-    public Node(Matakuliah data) {
+    public Node(int data) {
         this.data = data;
         this.next = null;
     }
 
-    // setter & getter
-    public void setData(Matakuliah data) { 
+    public void setData(int data) { 
         this.data = data; 
     }
-    public Matakuliah getData() { 
+
+    public int getData() { 
         return data; 
     }
 
-     // Setter & Getter untuk next
-     public void setNext(Node next) { 
+    public void setNext(Node next) { 
         this.next = next; 
     }
+
     public Node getNext() { 
         return next; 
     }

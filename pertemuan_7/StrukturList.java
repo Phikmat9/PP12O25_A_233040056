@@ -1,9 +1,9 @@
-package pertemuan7;
+package pertemuan_7;
 
-public class ListMk {
+public class StrukturList {
     private Node HEAD;
 
-    public ListMk() {
+    public StrukturList() {
         HEAD = null;
     }
 
