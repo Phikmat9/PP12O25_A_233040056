@@ -3,7 +3,7 @@ package pertemuan7;
 public class StukturList {
     private Node head;
 
-    public void addFirst(int Data) {
+    public void addTail(int Data) {
         Node newNode = new Node(Data);
         if (head == null) {
             head = newNode;
@@ -29,6 +29,7 @@ public class StukturList {
         System.out.println();
     }
 
+    //latihan 1
     public boolean find(int key) {
         Node current = head;
         while (current != null) {

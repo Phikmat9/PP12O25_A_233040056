@@ -4,12 +4,12 @@ public class TugasStukturListTest {
     public static void main(String[] args) {
         StukturList list = new StukturList();
 
-        list.addFirst(4);
-        list.addFirst(3);
-        list.addFirst(7);
-        list.addFirst(8);
-        list.addFirst(1);
-        list.addFirst(9);
+        list.addTail(4);
+        list.addTail(3);
+        list.addTail(7);
+        list.addTail(8);
+        list.addTail(1);
+        list.addTail(9);
 
         System.out.println("List sebelum dihapus:");
         list.printList(); 
